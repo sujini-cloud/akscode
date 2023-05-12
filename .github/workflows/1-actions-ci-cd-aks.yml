@@ -59,8 +59,8 @@ jobs:
         DOCKER_REPOSITORY: ${{ env.DOCKER_REPOSITORY }}
         IMAGE_NAME: ${{ env.IMAGE_NAME }}
         IMAGE_TAG: ${{ env.IMAGE_TAG }}
-        CLUSTER_NAME: ${{ env.CLUSTER_NAME }}
-        RESOURSE_GROUP: ${{ env.RESOURSE_GROUP }}
+        #CLUSTER_NAME: ${{ env.CLUSTER_NAME }}
+       # RESOURSE_GROUP: ${{ env.RESOURSE_GROUP }}
         
     # Set the target AKS cluster.
     - uses: Azure/aks-set-context@v1
